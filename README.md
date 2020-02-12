@@ -6,7 +6,11 @@ This is a simple script that compares a full route information (observed announc
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
-(What things you need to install the software and how to install them)
+Essential network addresses manipulation libraries: netaddr and ipaddress
+- netaddr  
+https://pypi.org/project/netaddr/
+- ipaddress  
+https://docs.python.org/3/howto/ipaddress.html
 
 ```
 python3 (>= 3.6.7)
@@ -51,6 +55,14 @@ Running the script gives a list of unassigned AND annoucned prefixes, which theo
 ```
 [['192.0.2.0/28'], ['203.0.113.0/30']]
 ```
+
+## Time it requires
+Below is our machine information which we used for running the script.
+```
+HPE DL360 Gen9 with Xeon E5-2630 V3 2.4GHz, ESXi 6.5.0 Update 2,
+debian9.11, 1 vCPU ,8 GB of memory, and SSD
+```
+It takes approximately 2.5h each time.
 
 ## Authors
 
