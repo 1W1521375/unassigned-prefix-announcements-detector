@@ -56,7 +56,7 @@ Running the script gives a list of unassigned AND annoucned prefixes, which theo
 
 Kentaro Goto, a univ student currently working at JPNIC
 
-## Acknowledgments
+## Acknowledgements
 
 * Akira Shibuya, JPNIC
 * Masayuki Okada, JPNIC
