@@ -32,7 +32,7 @@ BGP Protocol|timestamp|W/A/B|Peer IP|Peer ASN|Prefix\ASPath|Origin Protocol|Next
 TABLE_DUMP2|mm/dd/yy hh:mm:ss|B|192.0.2.0|64496|203.0.113.0/30|64501 64502 64503 64504 64506|IGP
 ...
 ```
-We first downloaded a mrt format file from RIPE RIS: https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/ris-raw-data  
+We first downloaded an mrt format file from RIPE RIS: https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/ris-raw-data  
 Then coverted them into txt format using `libbgpdump`.
 
 For assigned IP prefixes of an organisation, a simple txt/csv format below is supported:
