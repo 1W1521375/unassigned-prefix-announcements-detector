@@ -1,4 +1,4 @@
-# Route research by JPNIC
+# Route research by JPNIC Route Research Expert Team
 This is a simple script that compares a full route information (observed announcements) and lists of assigned/unassigned IP prefixes managed by a region/organisation, then detects unassigned prefixes that actually are anounced in the internet.
 
 ## Getting Started
@@ -65,8 +65,7 @@ debian9.11, 1 vCPU ,8 GB of memory, and SSD
 It takes approximately 2.5h each time.
 
 ## Authors
-
-Kentaro Goto, a univ student currently working at JPNIC
+Kentaro Goto, a univ student currently working at JPNIC, a member of Route Research Expert Team
 
 ## Acknowledgements
 
